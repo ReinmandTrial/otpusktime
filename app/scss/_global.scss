@@ -333,7 +333,14 @@ textarea {
 	width: 5px;
 	opacity: 1;
 }
-
+#popup-type-of-rest__list {
+	.simplebar-track.simplebar-vertical {
+		background: #c4c4c4;
+	}
+	.simplebar-scrollbar:before {
+		background: $green;
+	}
+}
 .daterangepicker.show-calendar .drp-calendar.right {
 	display: none;
 }
